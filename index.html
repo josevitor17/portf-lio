@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Vitor - Desenvolvedor Full Stack</title>
+    <meta name="description" content="Portfólio de José Vitor, desenvolvedor Full Stack júnior especializado em HTML, CSS, JavaScript, React e Node.js">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <span class="nav__logo-text">José Vitor</span>
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projetos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contato</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">Olá, eu sou</h3>
+                        <h1 class="home__title">José Vitor</h1>
+                        <h2 class="home__profession">Desenvolvedor Full Stack</h2>
+                        <p class="home__description">
+                            Desenvolvedor Full Stack criativo focado em criar projetos interativos e responsivos. 
+                            Apaixonado por tecnologia e sempre em busca de novos desafios.
+                        </p>
+                        
+                        <div class="home__buttons">
+                            <a href="#projects" class="button button--primary">
+                                Ver Projetos
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                            <a href="#contact" class="button button--ghost">
+                                Entre em Contato
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="home__social">
+                        <a href="https://github.com/josevitor17" target="_blank" class="home__social-link" aria-label="GitHub">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/josé-vitor-borges-b912a9239/" target="_blank" class="home__social-link" aria-label="LinkedIn">
+                            <i class="ri-linkedin-line"></i>
+                        </a>
+                        <a href="mailto:josevitorborges17@gmail.com" class="home__social-link" aria-label="Email">
+                            <i class="ri-mail-line"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="home__image">
+                    <div class="home__blob">
+                        <svg viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="maskBlob" mask-type="alpha">
+                                <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                                170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                                447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                                587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                                438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                            </mask>
+                            <g mask="url(#maskBlob)">
+                                <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                                170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                                447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                                587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                                438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                                
+                                <rect x="37" width="476" height="630" fill="url(#pattern0)"/>
+                            </g>
+                            
+                            <rect x="37" width="476" height="300" fill="url(#pattern1)"/>
+                            
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+                                </pattern>
+                                
+                                <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
+                                </pattern>
+                                
+                                <image id="imageBlob" width="640" height="925" href="assets/JOSE.jpg"/>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button">
+                    <i class="ri-mouse-line"></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                    <i class="ri-arrow-down-s-line"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section__title">Sobre Mim</h2>
+            <span class="section__subtitle">Minha introdução</span>
+            
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        Desenvolvedor Full Stack apaixonado por tecnologia, com foco em criar soluções 
+                        inovadoras e experiências digitais excepcionais. Sempre em busca de novos 
+                        conhecimentos e desafios que me permitam crescer profissionalmente.
+                    </p>
+                    
+                    <p class="about__description">
+                        Tenho experiência em desenvolvimento front-end e back-end, trabalhando com 
+                        tecnologias modernas para criar aplicações web responsivas e funcionais.
+                    </p>
+                    
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">03+</span>
+                            <span class="about__info-name">Projetos<br>Completos</span>
+                        </div>
+                        
+                        <div>
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">Anos de<br>Experiência</span>
+                        </div>
+                        
+                        <div>
+                            <span class="about__info-title">05+</span>
+                            <span class="about__info-name">Tecnologias<br>Dominadas</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about__buttons">
+                        <a download="" href="assets/cv-jose-vitor.pdf" class="button button--primary">
+                            Download CV
+                            <i class="ri-download-line"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="about__skills">
+                    <h3 class="skills__title">Tecnologias</h3>
+                    
+                    <div class="skills__content">
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">HTML5</h3>
+                                        <span class="skills__level">Avançado</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">CSS3</h3>
+                                        <span class="skills__level">Avançado</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Node.js</h3>
+                                        <span class="skills__level">Básico</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work section" id="projects">
+            <h2 class="section__title">Projetos</h2>
+            <span class="section__subtitle">Meus trabalhos recentes</span>
+            
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/conversor-moeda.jpg" alt="Conversor de Moeda" class="work__img">
+                    
+                    <div class="work__data">
+                        <h3 class="work__title">Conversor de Moeda</h3>
+                        <p class="work__description">
+                            Conversor de moeda criado com HTML, CSS e JavaScript. Permite que o usuário 
+                            converta real para Dólar, Euro e Libra com valores atualizados diariamente.
+                        </p>
+                        
+                        <div class="work__stack">
+                            <span class="work__stack-item">HTML</span>
+                            <span class="work__stack-item">CSS</span>
+                            <span class="work__stack-item">JavaScript</span>
+                        </div>
+                        
+                        <div class="work__links">
+                            <a href="#" target="_blank" class="work__link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="#" target="_blank" class="work__link">
+                                <i class="ri-external-link-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work__card mix web">
+                    <img src="assets/jokenpo.jpg" alt="Jokenpô" class="work__img">
+                    
+                    <div class="work__data">
+                        <h3 class="work__title">Jogo Jokenpô</h3>
+                        <p class="work__description">
+                            Jogo clássico de Pedra, Papel e Tesoura desenvolvido com JavaScript puro. 
+                            Interface interativa e responsiva com animações suaves.
+                        </p>
+                        
+                        <div class="work__stack">
+                            <span class="work__stack-item">HTML</span>
+                            <span class="work__stack-item">CSS</span>
+                            <span class="work__stack-item">JavaScript</span>
+                        </div>
+                        
+                        <div class="work__links">
+                            <a href="#" target="_blank" class="work__link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="#" target="_blank" class="work__link">
+                                <i class="ri-external-link-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work__card mix web">
+                    <img src="assets/sorteio-dev.jpg" alt="Sorteio Dev" class="work__img">
+                    
+                    <div class="work__data">
+                        <h3 class="work__title">Sorteio Dev</h3>
+                        <p class="work__description">
+                            Aplicação para sorteios aleatórios desenvolvida para a comunidade dev. 
+                            Interface moderna com animações e efeitos visuais.
+                        </p>
+                        
+                        <div class="work__stack">
+                            <span class="work__stack-item">HTML</span>
+                            <span class="work__stack-item">CSS</span>
+                            <span class="work__stack-item">JavaScript</span>
+                        </div>
+                        
+                        <div class="work__links">
+                            <a href="#" target="_blank" class="work__link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="#" target="_blank" class="work__link">
+                                <i class="ri-external-link-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contato</h2>
+            <span class="section__subtitle">Entre em contato comigo</span>
+            
+            <div class="contact__container container grid">
+                <div class="contact__information">
+                    <div class="contact__info">
+                        <i class="ri-phone-line contact__icon"></i>
+                        
+                        <div>
+                            <h3 class="contact__title">WhatsApp</h3>
+                            <span class="contact__subtitle">+55 11 94472-7603</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__info">
+                        <i class="ri-mail-line contact__icon"></i>
+                        
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">josevitorborges17@gmail.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__info">
+                        <i class="ri-map-pin-line contact__icon"></i>
+                        
+                        <div>
+                            <h3 class="contact__title">Localização</h3>
+                            <span class="contact__subtitle">São Paulo, Brasil</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="name" class="contact__label">Nome</label>
+                            <input type="text" id="name" name="name" class="contact__input" required>
+                        </div>
+                        
+                        <div class="contact__content">
+                            <label for="email" class="contact__label">Email</label>
+                            <input type="email" id="email" name="email" class="contact__input" required>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__content">
+                        <label for="subject" class="contact__label">Assunto</label>
+                        <input type="text" id="subject" name="subject" class="contact__input" required>
+                    </div>
+                    
+                    <div class="contact__content">
+                        <label for="message" class="contact__label">Mensagem</label>
+                        <textarea name="message" id="message" cols="0" rows="7" class="contact__input" required></textarea>
+                    </div>
+                    
+                    <div>
+                        <button type="submit" class="button button--primary">
+                            Enviar Mensagem
+                            <i class="ri-send-plane-line"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">José Vitor</h1>
+                    <span class="footer__subtitle">Desenvolvedor Full Stack</span>
+                </div>
+                
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contato</a>
+                    </li>
+                </ul>
+                
+                <div class="footer__socials">
+                    <a href="https://github.com/josevitor17" target="_blank" class="footer__social" aria-label="GitHub">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/josé-vitor-borges-b912a9239/" target="_blank" class="footer__social" aria-label="LinkedIn">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+                    <a href="mailto:josevitorborges17@gmail.com" class="footer__social" aria-label="Email">
+                        <i class="ri-mail-line"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <p class="footer__copy">&#169; José Vitor. Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
